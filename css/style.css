@@ -42,3 +42,119 @@ nav a {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
+
+main {
+    width: 100%
+}
+
+main > section:first-child {
+    padding-bottom: 40px;
+}
+
+main > section:first-child h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 24px 20px 16px;
+}
+
+main > section:first-child p {
+    margin: 0 20px 24px;
+}
+
+main > section:first-child a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 12px 20px;
+    background-color: #2f4f3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+main > section:nth-child(2) {
+    padding: 40px 20px;
+}
+
+main > section:nth-child(2) h2 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+main > section:nth-child(2) p {
+    margin-bottom: 16px;
+}
+
+main > section:nth-child(3) {
+    background-color: f2f2f2;
+    padding: 40px 20px;
+}
+
+main > section:nth-child(3) > h2 {
+    margin: 0 0 24px;
+    font-size: 26px;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+article img {
+    width: 100%;
+}
+
+article h3 {
+    margin: 16px 16px 8px;
+}
+
+article p {
+    margin: 0;
+    padding: 0 16px 20px;
+}
+
+main > section:nth-child(4) {
+    padding: 40px 20px;
+}
+
+main > section:nth-child(4) h2 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+main > section:nth-child(4) p {
+    margin-bottom: 20px;
+}
+
+main > section:nth-child(4) a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2f4f3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+}
+
+footer img {
+    width: 70px;
+}
+
+footer > p {
+    margin: 8px 0;
+}
+
+footer h2 {
+    font-size: 20px;
+    margin: 24px 0 12px;
+}
+
+footer a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
